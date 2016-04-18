@@ -1,8 +1,8 @@
 make:
-	g++ main.cpp
+	g++ -Wall -o program main.cpp structure.cpp
 
 run:
-	./a.exe
+	./program.exe
 
 clean:
-	rm a.exe
+	rm program.exe
